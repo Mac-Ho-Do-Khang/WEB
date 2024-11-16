@@ -195,8 +195,8 @@
                 </div>
             </div>
             <div class="view-CV-details">
-                <ion-icon name="information"></ion-icon>
-                <p>CV0001</p>
+                <ion-icon name="link"></ion-icon>
+                <p>http://abc.com/CV0001</p>
                 <ion-icon name="calendar"></ion-icon>
                 <p>June 10, 2024</p>
                 <ion-icon name="lock-closed"></ion-icon>
@@ -336,8 +336,8 @@
                 </div>
             </div>
             <div class="view-CV-details">
-                <ion-icon name="information"></ion-icon>
-                <p>CV0002</p>
+                <ion-icon name="link"></ion-icon>
+                <p>http://abc.com/CV0002</p>
                 <ion-icon name="calendar"></ion-icon>
                 <p>October 3, 2023</p>
             </div>
@@ -468,8 +468,8 @@
                 </div>
             </div>
             <div class="view-CV-details">
-                <ion-icon name="information"></ion-icon>
-                <p>CV0003</p>
+                <ion-icon name="link"></ion-icon>
+                <p>http://abc.com/CV0003</p>
                 <ion-icon name="calendar"></ion-icon>
                 <p>January 5, 2024</p>
                 <ion-icon name="lock-closed"></ion-icon>

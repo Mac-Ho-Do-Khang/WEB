@@ -66,6 +66,7 @@
                                     name="password"
                                     type="password"
                                     id="password"
+                                    placeholder="&bull;&bull;&bull;&bull;&bull;&bull;&bull;&bull;&bull;&bull;&bull;&bull;&bull;"
                                     required>
                             </div>
                             <div>

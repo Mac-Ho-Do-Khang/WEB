@@ -1003,12 +1003,48 @@
     </section>
 
     <section id="CV-upload" class="add-tabcontent">
-        <form action="index.php?page=login" class="CV-upload-form">
-            <input type="file" id="myFile" name="filename" class="CV-upload-upload">
-            <div class="CV-upload-submit-wrapper">
-                <input type="submit" class="btn btn-full CV-upload-submit" value="Upload">
-            </div>
-        </form>
+        <div class="CV-upload-form-container">
+            <form action="index.php?page=login" class="CV-upload-form CV-form">
+                <div class="CV-form-title">Upload file</div>
+                <input type="file" id="myFile" name="filename" class="CV-upload-upload">
+
+                <div class="CV-form-title">Additional setting</div>
+                <!-- Form name -->
+                <div class="CV-form-part Form-name">
+                    <div class="CV-form-icon-label">
+                        <ion-icon name="information-circle"></ion-icon>
+                        <label>Form Name (Optional)</label>
+                    </div>
+                    <input type="text" placeholder="Untitled">
+                </div>
+                <!-- Password -->
+                <div class="CV-form-part Name">
+                    <div class="CV-form-icon-label">
+                        <ion-icon name="lock-closed"></ion-icon>
+                        <label>Password (Optional)</label>
+                    </div>
+                    <input type="text" placeholder="&bull;&bull;&bull;&bull;&bull;&bull;&bull;&bull;&bull;&bull;&bull;&bull;&bull;&bull;">
+                </div>
+                <!-- Allowed email -->
+                <div class="CV-form-part Allowers">
+                    <div class="CV-form-icon-label">
+                        <ion-icon name="people"></ion-icon>
+                        <label>Who can view your CV? (Optional)</label>
+                    </div>
+                    <div id="allowers-container">
+                        <div class="allower-container">
+                            <input type="text" name="field" placeholder="Email...">
+                        </div>
+                    </div>
+                    <div class="add-button-wrapper">
+                        <button type="button" class="add-button" id="add-allower-button">+</button>
+                    </div>
+                </div>
+                <div class="CV-upload-submit-wrapper">
+                    <input type="submit" class="btn btn-full CV-upload-submit" value="Upload">
+                </div>
+            </form>
+        </div>
 
     </section>
 

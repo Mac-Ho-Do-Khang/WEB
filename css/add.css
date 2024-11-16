@@ -436,27 +436,30 @@ input[name="end"] {
 /* ------------------------------------------------------------------------------------------------------------------
 ----------------------------------------------------- UPLOAD CV -----------------------------------------------------
 --------------------------------------------------------------------------------------------------------------------- */
+.CV-upload-form-container {
+  padding: 2rem 12rem;
+}
 .CV-upload-form {
-  max-width: 400px;
-  margin: 20px auto;
-  padding: 20px;
+  padding: 3.2rem;
   background: linear-gradient(135deg, hsla(75, 6%, 87%, 1) 0%, rgba(117, 139, 169, 0.69) 100%);
-  border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 0.8rem;
+  box-shadow: 0 0.4rem 0.8rem rgba(0, 0, 0, 0.1);
 }
 
 .CV-upload-upload {
   display: block;
   width: 100%;
-  padding: 10px;
-  margin-bottom: 15px;
+  padding: 1rem;
+  margin-bottom: 1.5rem;
   background-color: #ffffff;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  font-size: 16px;
+  border: 0.1rem solid #ccc;
+  border-radius: 0.4rem;
+  font-size: 1.6rem;
+  grid-column: 1/-1;
 }
 
 .CV-upload-submit-wrapper {
   display: flex;
   justify-content: center;
+  align-items: center;
 }
